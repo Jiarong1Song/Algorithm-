@@ -9,13 +9,12 @@ function createCheckbox(e) {
   box.style.left = `${e.x}px`
   box.style.top = `${e.y}px`
   
-  if (document.body.children.lenth > 10) {
+  if (document.body.children.length > 20) {
     const firstBox = document.body.children[0]
     firstBox.remove()
 }
     
   }
-  
 
   window.addEventListener('mousemove', createCheckbox)
   
